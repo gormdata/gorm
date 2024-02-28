@@ -487,7 +487,7 @@ func (db *DB) Use(plugin Plugin) error {
 		return err
 	}
 	db.Plugins[name] = plugin
-	fmt.Println("hello")
+	fmt.Println("test")
 	return nil
 }
 
